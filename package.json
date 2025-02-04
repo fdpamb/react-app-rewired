@@ -13,7 +13,8 @@
     "start": "yarn --cwd 'test/react-app' start",
     "teardown": "yarn unlink && yarn clean && yarn --cwd 'test/react-app' clean",
     "test": "yarn --cwd 'test/react-app' test",
-    "deps": "yarn && yarn --cwd 'test/react-app'"
+    "deps": "yarn && yarn --cwd 'test/react-app' && yarn removetesteslintconfigreactapp",
+    "removetesteslintconfigreactapp": "rm -rf test/react-app/node_modules/eslint-config-react-app"
   },
   "peerDependencies": {
     "react-scripts": ">github:fdpamb/react-scripts"
