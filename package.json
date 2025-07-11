@@ -20,7 +20,7 @@
     "react-scripts": ">github:fdpamb/react-scripts"
   },
   "dependencies": {
-    "semver": "^7.7.1"
+    "semver": "^7.7.2"
   },
   "devDependencies": {
     "react-scripts": "github:fdpamb/react-scripts"
