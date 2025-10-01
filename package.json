@@ -38,5 +38,13 @@
     "/config",
     "/overrides",
     "/scripts"
-  ]
+  ],
+  "overrides": {
+    "@rollup/plugin-node-resolve": {
+      "es5-ext": "0.10.53"
+    },
+    "webpack": {
+      "es5-ext": "0.10.53"
+    }
+  }
 }
