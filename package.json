@@ -20,7 +20,7 @@
     "react-scripts": ">github:fdpamb/react-scripts"
   },
   "dependencies": {
-    "semver": "^7.7.2"
+    "semver": "^7.7.3"
   },
   "devDependencies": {
     "react-scripts": "github:fdpamb/react-scripts"
@@ -45,6 +45,9 @@
     },
     "webpack": {
       "es5-ext": "github:fdpamb/es5-ext#patch-upgrade-0.10.64"
+    },
+    "jsdom": {
+      "form-data": "^3.0.4"
     }
   }
 }
