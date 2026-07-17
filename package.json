@@ -7,6 +7,7 @@
     "react-app-rewired": "./bin/index.js"
   },
   "scripts": {
+    "install": "yarn install --ignore-scripts",
     "build": "yarn --cwd 'test/react-app' build",
     "clean": "rm -rf node_modules",
     "setup": "yarn deps && yarn link && yarn --cwd 'test/react-app' link 'react-app-rewired'",
@@ -20,10 +21,10 @@
     "react-scripts": ">github:fdpamb/react-scripts"
   },
   "dependencies": {
-    "semver": "^7.7.4"
+    "semver": "7.8.5"
   },
   "devDependencies": {
-    "node-forge": "^1.4.0",
+    "node-forge": "1.4.0",
     "react-scripts": "github:fdpamb/react-scripts"
   },
   "repository": {
@@ -48,10 +49,10 @@
       "es5-ext": "github:fdpamb/es5-ext#patch-upgrade-0.10.64"
     },
     "jsdom": {
-      "form-data": "^3.0.4"
+      "form-data": "3.0.4"
     },
     "selfsigned": {
-      "node-forge": "^1.4.0"
+      "node-forge": "1.4.0"
     }
   }
 }
