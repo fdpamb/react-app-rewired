@@ -49,7 +49,7 @@
       "es5-ext": "github:fdpamb/es5-ext#patch-upgrade-0.10.64"
     },
     "jsdom": {
-      "form-data": "3.0.4"
+      "form-data": "3.0.5"
     },
     "selfsigned": {
       "node-forge": "1.4.0"
